@@ -1,0 +1,14 @@
+.search-bar
+{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+}
+
+.search-icon
+{
+    width: 100%;
+}
+.input
+{
+    /* border-radius: 0; */
+}
