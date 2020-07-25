@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an app which provides the survey details of employees. There is two section which is used i..e Survey List and Assigned Survey.
+Survey List shows the list of all survey which is available right now and not yet taken by you. If you click add on Survey from Survey list then it will add survey into Assigned Survey list and remove it from survey list. In the same way we can remove survey from assigned survey by clicking on remove button and since this survey is not in your assigned list , it will appear on Survey List.
 
-## Available Scripts
+Initially app look like this
+![](https://raw.githubusercontent.com/vjainlion/images/master/Screenshot%20(116).png)
 
-In the project directory, you can run:
+When I click "REMOVE" from Assigned Survey it will remove it and add it to Survey List
 
-### `yarn start`
+![](https://raw.githubusercontent.com/vjainlion/images/master/Screenshot%20(117).png)
+![](https://raw.githubusercontent.com/vjainlion/images/master/Screenshot%20(118).png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a dropdown showing list of employees 
+![](https://raw.githubusercontent.com/vjainlion/images/master/Screenshot%20(119).png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Similarly ADD button works as described above
+![](https://raw.githubusercontent.com/vjainlion/images/master/Screenshot%20(120).png)
+![](https://raw.githubusercontent.com/vjainlion/images/master/Screenshot%20(121).png)
 
-### `yarn test`
+At Last we can click on "SUBMIT" Button which submit our details
+![](https://raw.githubusercontent.com/vjainlion/images/master/Screenshot%20(122).png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
